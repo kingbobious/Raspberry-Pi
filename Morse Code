@@ -91,6 +91,31 @@ def i():
 	dot()
 	dot()
 
+def j():
+	dot()
+	dash()
+	dash()
+	dash()
+
+def k():
+	dash()
+	dot()
+	dash()
+
+def l():
+	dot()
+	dash()
+	dot()
+	dot()
+
+def m():
+	dash()
+	dash()
+
+def n()
+	dash()
+	dot() 
+
 	
 	
 
