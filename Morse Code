@@ -1,6 +1,8 @@
- import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 import math
+
+print("To sent a custom message edit the While True loop, there is also a 'explode_me' that flashes the light really fast. Enjoy!")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.OUT)
