@@ -1,0 +1,108 @@
+import RPi.GPIO as GPIO
+import time
+import math
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(24, GPIO.OUT)
+	
+def dot():
+	GPIO.output(24, True)
+	time.sleep(0.5)
+	GPIO.output(24, False)
+	time.sleep(0.5)
+
+
+def dash():
+	GPIO.output(24, True)
+	time.sleep(1)
+	GPIO.output(24, False)
+	time.sleep(0.5)
+	
+	
+def new_word():
+	GPIO.output(24, False)
+	time.sleep(6)
+	
+	
+def space():
+	GPIO.output(24, False)
+	time.sleep(3)
+
+def explode_me():
+	GPIO.output(24, True)
+	time.sleep(0.05)
+	GPIO.output(24, False)
+	time.sleep(0.05)
+
+
+
+
+
+
+
+def a():
+	dot()
+	dash()
+	space()
+
+def b():
+	dash()
+	dot()
+	dot()
+	dot()
+	space()
+	
+def c():
+	dash()
+	dot()
+	dash()
+	dot()
+	space()
+	
+def d():
+	dash()
+	dot()
+	dot()
+	space()
+	
+def e():
+	dot()
+	space()
+	
+def f():
+	dot()
+	dot()
+	dash()
+	dot()
+	space()
+	
+def g():
+	dash()
+	dash()
+	dot()
+	
+def h():
+	dot()
+	dot()
+	dot()
+	dot()
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+while True:
+	h()
+  i() 
+
+	
