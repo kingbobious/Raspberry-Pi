@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import math
 
-print("To sent a custom message edit the While True loop, there is also a 'explode_me' that flashes the light really fast. Enjoy!")
+print("To sent a custom message edit the While True loop, use 'new_word' when you are typing a new word, there is a built in stop after each letter, there is also an 'explode_me' that flashes the light really fast. Enjoy!")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.OUT)
@@ -82,105 +82,125 @@ def g():
 	dash()
 	dash()
 	dot()
+	space()
 	
 def h():
 	dot()
 	dot()
 	dot()
 	dot()
+	space()
 
 def i():
 	dot()
 	dot()
+	space()
 
 def j():
 	dot()
 	dash()
 	dash()
 	dash()
+	space()
 
 def k():
 	dash()
 	dot()
 	dash()
+	space()
 
 def l():
 	dot()
 	dash()
 	dot()
 	dot()
+	space()
 
 def m():
 	dash()
 	dash()
+	space()
 
 def n():
 	dash()
-	dot() 
+	dot()
+	space()
 
 def o():
 	dash()
 	dash()
 	dash()
+	space()
 
 def p():
 	dot()
 	dash()
 	dash()
 	dot()
+	space()
 
 def q():
 	dash()
 	dash()
 	dot()
 	dash()
+	space()
 
 def r():
 	dot()
 	dash()
 	dot()
+	space()
 
 def s():
 	dot()
 	dot()
 	dot()
+	space()
 
 def t():
 	dash()
+	space()
 
 def u():
 	dot()
 	dot()
 	dash()
+	space()
 
 def v():
 	dot()
 	dot()
 	dot()
 	dash()
+	space()
 
 def w():
 	dot()
 	dash()
 	dash()
+	space()
 
 def x():
 	dash()
 	dot()
 	dot()
 	dash()
+	space()
 
 def y():
 	dash()
 	dot()
 	dash()
 	dash()
+	space()
 
 def z():
 	dash()
 	dash()
 	dot()
 	dot()
+	space()
 
 
 
