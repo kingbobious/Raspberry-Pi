@@ -202,6 +202,13 @@ def z():
 	dot()
 	space()
 
+def 0():
+	dash()
+	dash()
+	dash()
+	dash()
+	dash()
+
 def 1():
 	dot()
 	dash()
@@ -223,6 +230,47 @@ def 3():
 	dash()
 	dash()
 
+def 4():
+	dot()
+	dot()
+	dot()
+	dot()
+	dash()
+
+def 5():
+	dot()
+	dot()
+	dot()
+	dot()
+	dot()
+
+def 6():
+	dash()
+	dot()
+	dot()
+	dot()
+	dot()
+
+def 7():
+	dash()
+	dash()
+	dot()
+	dot()
+	dot()
+
+def 8():
+	dash()
+	dash()
+	dash()
+	dot()
+	dot()
+
+def 9():
+	dash()
+	dash()
+	dash()
+	dash()
+	dot()
 
 
 while True:
