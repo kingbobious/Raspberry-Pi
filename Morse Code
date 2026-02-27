@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 import time
-import math
 
 print("To sent a custom message edit the While True loop, use 'new_word' when you are typing a new word, there is a built in stop after each letter, there is also an 'explode_me' that flashes the light really fast. Enjoy!")
 
@@ -35,10 +34,6 @@ def explode_me():
 	time.sleep(0.05)
 	GPIO.output(24, False)
 	time.sleep(0.05)
-
-
-
-
 
 
 
@@ -275,4 +270,4 @@ def 9():
 
 while True:
 	h()
-  	i() 
+  	i()
