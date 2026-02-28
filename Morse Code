@@ -203,6 +203,7 @@ def 0():
 	dash()
 	dash()
 	dash()
+	space()
 
 def 1():
 	dot()
@@ -210,6 +211,7 @@ def 1():
 	dash()
 	dash()
 	dash()
+	space()
 
 def 2():
 	dot()
@@ -217,6 +219,7 @@ def 2():
 	dash()
 	dash()
 	dash()
+	space()
 
 def 3():
 	dot()
@@ -224,6 +227,7 @@ def 3():
 	dot()
 	dash()
 	dash()
+	space()
 
 def 4():
 	dot()
@@ -231,6 +235,7 @@ def 4():
 	dot()
 	dot()
 	dash()
+	space()
 
 def 5():
 	dot()
@@ -238,6 +243,7 @@ def 5():
 	dot()
 	dot()
 	dot()
+	space()
 
 def 6():
 	dash()
@@ -245,6 +251,7 @@ def 6():
 	dot()
 	dot()
 	dot()
+	space()
 
 def 7():
 	dash()
@@ -252,6 +259,7 @@ def 7():
 	dot()
 	dot()
 	dot()
+	space()
 
 def 8():
 	dash()
@@ -259,6 +267,7 @@ def 8():
 	dash()
 	dot()
 	dot()
+	space()
 
 def 9():
 	dash()
@@ -266,8 +275,10 @@ def 9():
 	dash()
 	dash()
 	dot()
+	space()
 
 
 while True:
 	h()
   	i()
+	new_word()
