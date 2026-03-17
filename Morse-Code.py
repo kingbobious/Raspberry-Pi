@@ -2,35 +2,42 @@ import RPi.GPIO as GPIO
 import time
 import math
 
-print("To sent a custom message edit the While True loop, there is also a 'explode_me' that flashes the light really fast. Enjoy!")
+print("To sent a custom message type it now, there is also a 'O'\(remember captial!\) that flashes the light really fast. Enjoy!")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.OUT)
 	
+dot_time = 0.05
+dashtime = dot_time * 3
+
+
+
+
+
 def dot():
 	GPIO.output(24, True)
-	time.sleep(0.5)
+	time.sleep(dot_time)
 	GPIO.output(24, False)
-	time.sleep(0.5)
+	time.sleep(dot_time)
 
 
 def dash():
 	GPIO.output(24, True)
-	time.sleep(1)
+	time.sleep(dashtime)
 	GPIO.output(24, False)
-	time.sleep(0.5)
+	time.sleep(dot_time)
 	
 	
 def new_word():
 	GPIO.output(24, False)
-	time.sleep(6)
+	time.sleep(dot_time * 7)
 	
 	
 def space():
 	GPIO.output(24, False)
-	time.sleep(3)
+	time.sleep(dashtime)
 
-def explode_me():
+def O():
 	GPIO.output(24, True)
 	time.sleep(0.05)
 	GPIO.output(24, False)
@@ -185,5 +192,62 @@ def z():
 
 
 while True:
-	h()
-  	i() 
+	encryption = input()
+	for letter in encryption:
+		print(f"{letter}")
+		if letter == 'a':
+			a()
+		if letter == 'b':
+			b()
+		if letter == 'c':
+			c()
+		if letter == 'd':
+			d()
+		if letter == 'e':
+			e()
+		if letter == 'f':
+			f()
+		if letter == 'g':
+			g()
+		if letter == 'h':
+			h()
+		if letter == 'i':
+			i()
+		if letter == 'j':
+			j()
+		if letter == 'k':
+			k()
+		if letter == 'l':
+			l()
+		if letter == 'm':
+			m()
+		if letter == 'n':
+			n()
+		if letter == 'o':
+			o()
+		if letter == 'p':
+			p()
+		if letter == 'q':
+			q()
+		if letter == 'r':
+			r()
+		if letter == 's':
+			s()
+		if letter == 't':
+			t()
+		if letter == 'u':
+			u()
+		if letter == 'v':
+			v()
+		if letter == 'w':
+			w()
+		if letter == 'x':
+			x()
+		if letter == 'y':
+			y()
+		if letter == 'z':
+			z()
+		if letter == ' ':
+			new_word()
+		if letter == 'O':
+			O()
